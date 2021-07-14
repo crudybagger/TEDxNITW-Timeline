@@ -1,0 +1,28 @@
+body {
+    background-color :gainsboro;
+}
+.container {
+    height: 80vh;
+}
+
+#image {
+    height: 40%;
+    width: 30%;
+    background-image: url("./Red.png");
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.picker {
+    justify-content: space-around;
+}
+
+@media screen and (max-width : 426px) {
+    #image {
+        width: 90%;
+        height: 50%;
+        display: block;
+        margin-inline: auto;
+
+    }
+}
